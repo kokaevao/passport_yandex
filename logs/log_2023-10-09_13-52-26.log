@@ -1,0 +1,60 @@
+
+-----
+Test: tests/test_autorization.py::test_incorrect_password (call)
+Start time: 2023-10-09 13:52:28.351372
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 13:52:30.099278
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----
+
+-----
+Test: tests/test_autorization.py::test_login_by_phone (call)
+Start time: 2023-10-09 13:52:35.737695
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 13:52:37.254885
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----
+
+-----
+Test: tests/test_autorization.py::test_login_by_mail (call)
+Start time: 2023-10-09 13:52:42.912209
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 13:52:44.920200
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----
+
+-----
+Test: tests/test_autorization.py::test_create_login_myself (call)
+Start time: 2023-10-09 13:52:50.600962
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 13:52:51.915580
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----
+
+-----
+Test: tests/test_autorization.py::test_forgot_password (call)
+Start time: 2023-10-09 13:52:57.554143
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 13:52:59.395451
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----

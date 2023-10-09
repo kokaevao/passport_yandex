@@ -1,0 +1,12 @@
+
+-----
+Test: tests/test_autorization.py::test_first (call)
+Start time: 2023-10-09 12:14:19.625264
+Start name method: Открытие страницы авторизации
+
+End time: 2023-10-09 12:14:21.128219
+End name method: Открытие страницы авторизации
+URL: https://passport.yandex.ru/auth?retpath=https%3A%2F%2Fpassport.yandex.ru%2F&noreturn=1
+Результат Успех
+
+-----
