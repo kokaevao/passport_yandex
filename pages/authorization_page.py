@@ -20,16 +20,16 @@ class Authorization_page(Base):
     field_password = '//*[@id="passp-field-passwd"]'
     button_come_in = '//*[@id="passp:sign-in"]'
     button_create_id = '//*[@id="passp:exp-register"]'
-    button_create_id_myself = '//*[@id="root"]/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/div/form/div/div[3]/div[3]/div/ul/li[1]/button'
+    button_create_id_myself = "//button[contains( text(),'Для себя')]"
     button_phone = '//*[@data-type="phone"]'
     button_continue_phone = '//*[@id="passp:phone:controls:next"]'
     link_not_remember_password = '//*[@id="field:link-passwd"]/a'
     word_add_account_yandex = '//*[@class="passp-add-account-page-title"]'
     word_incorrect_password = '//*[@id="field:input-passwd:hint"]'
-    word_enter_sms_code = '//*[@id="UserEntryFlow"]/form/div/div[1]/h1/div'
-    word_create_account_sms_code = '//*[@id="root"]/div/div[2]/div[2]/div/div/div[2]/div[3]/div/form/div/div[1]/h1/div'
-    word_success_authorization = '//*[@id="__next"]/div/main/div/section[2]/div/div[1]/div/h2/a'
-    word_enter_captcha = '//*[@id="root"]/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/form/div/div[1]/h1'
+    word_enter_sms_code = "//div[contains( text(),'Введите код из смс. Мы')]"
+    word_create_account_sms_code = "//div[contains( text(),'Подтвердите кодом из')]"
+    word_success_authorization = "//a[contains( text(),'Данные')]"
+    word_enter_captcha = "//h1[contains( text(),'Введите символы')]"
 
 
 
